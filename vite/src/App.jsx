@@ -9,7 +9,7 @@ import TopicFive from './pages/TopicFive.jsx';
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename ="/portfolio">
             <Navbar />
 
             <Routes>
